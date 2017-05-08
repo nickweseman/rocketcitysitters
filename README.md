@@ -11,7 +11,7 @@ php.exe index.php > index.html
 
 ... do this for each file
 
-Then open index.html in your browser.
+Then open e.g. index.html in your browser.
 
 # LAMP / WAMP
 For a more holistic solution, I would suggest to install either:
