@@ -1,0 +1,33 @@
+#parents_home {
+  height: 260px;
+}
+
+#parents_home img {
+  margin: 0 20px 0 0;
+	float: left;
+	display: block;
+}
+
+#parents_home ul {
+  margin: 0 0 0 280px;
+}
+
+#sitters_home {
+  height: 330px;
+}
+
+#sitters_home img {
+  margin: 0 0 0 20px;
+	float: right;
+}
+
+#featured img {
+  border: none;
+  margin: 0 0 3px 0;
+}
+#parents_home img, #sitters_home img {
+	border: none;
+}
+
+
+

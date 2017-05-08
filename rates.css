@@ -1,0 +1,30 @@
+#rate_table {
+  border: thin solid black;
+  margin-right: 20px;
+  caption-side: bottom;
+  border-collapse: collapse;
+  display: block;
+  width: 184px;
+}
+
+#rate_table td,th {
+  border: thin dotted gray;
+  padding: 5px;
+}
+#first_td {
+  width: 125px;	
+}
+#second_td {
+  width:  35px;
+}
+
+.even {
+  background: #F0F0EB;  
+}
+
+#rates img {
+ display: block;
+ width: 278px;
+ float: right;
+ margin: 0 23px 0 0;
+}

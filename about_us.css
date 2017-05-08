@@ -1,0 +1,15 @@
+#about_image {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 300px;
+}
+#brochure {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 2px 0 5px 0;
+}
+#featured img {
+  border: none;
+  margin: 0 0 3px 0;
+}

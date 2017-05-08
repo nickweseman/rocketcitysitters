@@ -1,0 +1,11 @@
+#press h2 {
+  color: black;
+}
+#press img {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+#press .float_left {
+	float: left;
+	margin: 0 10px 10px 0;
+}

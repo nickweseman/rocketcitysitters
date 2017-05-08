@@ -1,0 +1,241 @@
+/* For Container, Header, Sidebar, and Footer */
+
+/************ Container ************/
+.main {
+  border-top: 4px solid #FFF;
+}
+.content {
+  float: left;
+  margin: 10px 0;
+  padding: 0 16px;
+  width: 531px;
+}
+.content .descr {
+  color: #664;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+.content p {font-family: "Lucida Sans Unicode",sans-serif;}
+.container {
+  background: #FFF;
+  font-size: 1.2em;
+  margin: 0 auto;
+  padding: 0 10px 10px;
+  width: 780px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {min-height: 100%;}
+body {
+  background: url(img/rocket-city-sitters-background.jpg) repeat-x fixed 0 0;
+  font: normal 62.5% Tahoma,sans-serif;
+}
+/* Removes annoying rectangle after/during click of link */
+a:focus {
+	outline: 0;
+}
+/********************************/
+
+/************ Header ************/
+.top {padding: 50px 10px 0;}
+.header {
+  background: #FFF;
+  font-size: 1.2em;
+  height: 150px;
+  margin: 0 auto;
+  padding: 10px 10px 5px;
+  width: 780px;
+}
+.header .left, .header .right {
+  background: #0c479d;
+  color: #FFF; 
+  height: 150px;
+}
+.header .left {
+  font: normal 2.8em "Trebuchet MS",sans-serif;
+  line-height: 150px;
+  text-align: center;
+  width: 564px;
+}
+.header .right {
+  overflow: auto;
+  width: 212px;
+}
+.header .right p,.header .right h2 {padding: 0 16px;}
+.header .right h2 {padding-top: 16px; font: normal 1.6em "Trebuchet MS",sans-serif;}
+.header #header_logo {
+  padding: 0 0 0 40px;
+  float: left;
+}
+#header_logo img {border:none;}
+#right_header {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-size: 1.6em;
+}
+#right_header h1 {font-size: 1.8em;}
+#right_header h2 {font-size: 1.2em;}
+#right_header #testimonial_quote {
+  color: white;
+  text-decoration: none;
+}
+#right_header #testimonial_person {
+	color: #ffd128;
+	text-decoration: none;
+	font-size: .8em;
+}
+#right_header table {
+  width: 212px;
+  height: 150px;
+}
+/* Note:  Looks like vertical alignment is done automatically in a table cell */
+#right_header td {
+	/*vertical-align: middle; */
+}
+.navigation {
+  background: #D9E1E5 url(img/rocket-city-sitters-toolbar.gif);
+  border: 1px solid #DFEEF7;
+  border-color: #DFEEF7 #CFDEE7;
+  height: 41px;
+}
+.navigation a {
+  background: #D9E1E5 url(img/rocket-city-sitters-toolbar.gif);
+  border-right: 1px solid #AFBEC7;
+  color: #456;
+  display: block;
+  float: left;
+  font: bold 1.1em sans-serif;
+  line-height: 41px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.navigation a:hover {
+  background-position: left bottom; 
+  color: #234;
+}
+.navigation h1 {
+ float: right;
+ text-align: right;
+ color: #0c479d;
+ font-size: x-large;
+ font-family: "Lucida Sans Unicode",sans-serif;
+}
+.navigation img {
+  float: right;
+  padding-top: 10px;
+}
+
+/********************************/
+
+/************ Sidebar ************/
+.sidenav {
+  float: right;
+  width: 210px;
+}
+.sidenav h2 {
+  font-size: 1em;
+  line-height: 30px;
+  margin: 0;
+  padding-left: 12px;
+}
+.sidenav ul {padding: 0;}
+.sidenav li {
+  font-size: 1.1em;
+  color: #554;
+  display: block;
+  text-decoration: none;
+  width: 190px;
+}
+#phone_number {
+  font-size: 2.0em;
+  color: #0c479d;
+}
+#kids {
+  display: block;
+  float: right;
+  width: 210px;
+}
+#madison_chamber {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 133px;
+  border-color: #0c479d;
+  border-width: thin;
+}
+#facebook_twitter {
+	display: block;
+	margin: 10px auto 0 auto;
+	width: 144px;
+	border: none;	
+}
+#newsletter_icon {
+	margin: 20px auto 0 auto;
+}
+#gift_certificates {
+  display: block;
+  margin: 10px auto;
+  width: 99px;
+  border: none;
+}
+/********************************/
+
+/************ Footer ************/
+.footer {
+  background: url(img/rocket-city-sitters-footer.gif) repeat-x;
+  color: #FFF;
+  font: bold 1em sans-serif;
+  line-height: 24px;
+  text-align: center;
+}
+.footer a {color: #FFF;}
+.footer a:hover {color: #ffd128}
+.footer img {vertical-align: middle;}
+/********************************/
+
+/************ Misc ************/
+a {color: #0c479d;}
+a:hover {color: #ffd128;}
+p,ul {padding-bottom: 1.2em;}
+ul {line-height: 1.5em;}
+li {
+  list-style: none;
+  background: url(img/rocket-city-sitters-star.gif) no-repeat;
+  padding: 0 0 0 25px;
+}
+h1 {
+  font: normal 1.8em Tahoma,sans-serif;
+  margin-bottom: 4px;
+}
+h1,h2,h3 {padding-top: 6px;}
+h1, h2 {color: #0c479d;}
+.vcenter { /* vertically centers any image/text */
+  min-height: 25px;
+  display: table-cell;
+  vertical-align: middle;
+}
+#blurb {
+  background: #FFF;
+  border: 1px solid #EEE;
+  border-left: 6px solid #C1CAD3;
+  color: #666;
+  display: block;
+  font: normal 1.2em Tahoma,sans-serif;
+  line-height: 1.6em;
+  margin-bottom: 12px;
+  padding: 8px 0 8px 10px;
+  width: 514px;
+}
+blockquote {
+  background: url(img/babysitters-review-quote.gif) no-repeat;
+  display: block;
+  /*font-weight: bold; */
+  font-style: italic;
+  padding-left: 28px;
+}
+.clearer {clear: both;}
+.left {float: left;}
+.right {float: right;}
+/********************************/
+

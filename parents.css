@@ -1,0 +1,21 @@
+#why img {
+  float: right;
+  padding: 0 0 0 10px;
+}
+#getting_started img {
+  float: left;
+  padding: 0 10px 0 0;
+}
+#getting_started {
+  height: 330px;
+}
+#referral {
+	height: 275px;
+}
+#referral img {
+  float: right;
+  padding: 0 0 0 10px;
+}
+#submit_testimonial {
+	font-size: 1.2em;
+}

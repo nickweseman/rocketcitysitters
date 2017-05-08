@@ -1,0 +1,11 @@
+#becoming {
+  height: 260px; 
+}
+#becoming img {
+  float: left;
+  padding: 0 10px 0 0;
+}
+#requirements img {
+	float: right;
+	padding: 0 0 0 10px;
+}

@@ -1,0 +1,11 @@
+Test/
+RogersPoll/
+*/WS_FTP.LOG
+docs/old/
+.settings/
+.project
+1215log
+*.bak
+*_old
+*_closed
+WS_FTP.LOG
