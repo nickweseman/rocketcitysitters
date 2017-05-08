@@ -15,7 +15,12 @@ Then open e.g. index.html in your browser.
 
 # LAMP / WAMP
 For a more holistic solution, I would suggest to install either:
+
 LAMP - Linux, Apache, MySQL, PHP
+
 or
+
 WAMP - Windows, Apache, MySQL, PHP
+
 on your local machine and use that to serve up the php webpages.
+
